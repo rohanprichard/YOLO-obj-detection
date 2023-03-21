@@ -4,6 +4,7 @@ import numpy as np
 import time
 
 net = cv2.dnn.readNet("yolov3(1).weights","yolov3-tiny.cfg")
+
 classes=[]
 
 with open("coco.txt","r") as f:
